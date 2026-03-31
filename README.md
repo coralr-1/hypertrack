@@ -42,6 +42,9 @@ Seven standardized trajectories are defined to probe different tracking challeng
 | T6 | Disturb-Straight | Same-color distractor interference |
 | T7 | Disturb-Round | Hardest: interference + continuous motion |
 
+![Experimental Map of the Seven Scenarios](images/9.jpg)
+*Overhead view of the experimental area showing the paths for the seven trajectory scenarios (Straight, Square, Circle, Z-Shape, Triangle, Disturb-Straight, and Disturb-Round).*
+
 **B — System Computational Architecture**
 
 Each incoming frame is processed in priority order: M2 (LAB) is evaluated first; on consecutive failure M3 (CSRT) is activated; M1 (YOLO) fires asynchronously every 60 frames for semantic recalibration. All observations are fused by the UKF, whose smoothed output drives PID servo + chassis control.
@@ -63,12 +66,6 @@ Key metrics: Target Success Rate (TSR), Center Location Error (CLE), RMSE, avera
 ![HyperTrack Three-Layer Architecture](images/2.png)
 
 *Three-layer architecture: Perception & Scheduling Layer (M1/M2/M3), State Smoothing Layer (UKF), and Execution & Control Layer (PID + chassis compensation).*
-
-### Experimental Map & Trajectories
-
-![Experimental Map of the Seven Scenarios](images/9.jpg)
-
-*Overhead view of the experimental area showing the paths for the seven trajectory scenarios (Straight, Square, Circle, Z-Shape, Triangle, Disturb-Straight, and Disturb-Round).*
 
 ### Experimental Workflow
 
