@@ -70,6 +70,12 @@ Key metrics: Target Success Rate (TSR), Center Location Error (CLE), RMSE, avera
 
 *Full experimental workflow: trajectory scenario pool (A), system computational architecture (B), four-stage data filtering middleware (C), and multidimensional evaluation framework (D).*
 
+### Experimental Map & Trajectories
+
+![Experimental Map of the Seven Scenarios](images/9.jpg)
+
+*Overhead view of the experimental area showing the paths for the seven trajectory scenarios (Straight, Square, Circle, Z-Shape, Triangle, Disturb-Straight, and Disturb-Round).*
+
 ### TSR Comparison — Radar Chart
 
 ![TSR Radar Chart across Seven Trajectories](images/6.png)
