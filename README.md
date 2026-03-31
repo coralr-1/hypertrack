@@ -64,17 +64,17 @@ Key metrics: Target Success Rate (TSR), Center Location Error (CLE), RMSE, avera
 
 *Three-layer architecture: Perception & Scheduling Layer (M1/M2/M3), State Smoothing Layer (UKF), and Execution & Control Layer (PID + chassis compensation).*
 
-### Experimental Workflow
-
-![HyperTrack Experimental Workflow](images/1.png)
-
-*Full experimental workflow: trajectory scenario pool (A), system computational architecture (B), four-stage data filtering middleware (C), and multidimensional evaluation framework (D).*
-
 ### Experimental Map & Trajectories
 
 ![Experimental Map of the Seven Scenarios](images/9.jpg)
 
 *Overhead view of the experimental area showing the paths for the seven trajectory scenarios (Straight, Square, Circle, Z-Shape, Triangle, Disturb-Straight, and Disturb-Round).*
+
+### Experimental Workflow
+
+![HyperTrack Experimental Workflow](images/1.png)
+
+*Full experimental workflow: trajectory scenario pool (A), system computational architecture (B), four-stage data filtering middleware (C), and multidimensional evaluation framework (D).*
 
 ### TSR Comparison — Radar Chart
 
